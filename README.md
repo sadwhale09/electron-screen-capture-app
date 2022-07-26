@@ -10,4 +10,4 @@ Things don't work so well 💀
 
 ### TODO:
 - [ ] Make popup appear
-- [ ] idk what's wrong 
+- [ ] Uncaught ReferenceError: require is not defined at render.js:9:37
