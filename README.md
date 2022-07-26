@@ -10,4 +10,4 @@
 <hr>
 
 * Things don't work so well 💀
-* Checkout the "render" branch
+* Checkout the <a href="https://github.com/sadwhale09/electron-screen-capture-app/tree/render">*render*</a> branch
