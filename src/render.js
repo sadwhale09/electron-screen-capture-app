@@ -1,3 +1,6 @@
+import { DesktopCapturer, remote } from "electron";
+import { Menu } from "electron";
+
 // Buttons
 const videoElement = document.querySelector('video');
 const startBtn = document.getElementById('startBtn');
@@ -6,26 +9,26 @@ const videoSelectBtn = document.getElementById('videoSelectBtn');
 videoSelectBtn.onclick = getVideoSources;
 
 
-const { desktopCapturer, remote } = require('electron');
-const { Menu } = remote;
+// const { desktopCapturer, remote } = require('electron');
+// const { Menu } = remote;
 
 // Get video sources
 async function getVideoSources() {
-  const inputSources = await desktopCapturer.getSources({
-    types: ['window', 'screen']
-  });
+    const inputSources = await desktopCapturer.getSources({
+        types: ['window', 'screen']
+    });
 
-  const videoOptionsMenu = Menu.buildFromTemplate(
-    inputSources.map(source => {
-      return {
-        label: source.name,
-        click: () => selectSource(source)
-      };
-    })
-  );
+    const videoOptionsMenu = Menu.buildFromTemplate(
+        inputSources.map(source => {
+            return {
+                label: source.name,
+                click: () => selectSource(source)
+            };
+        })
+    );
 
 
-  videoOptionsMenu.popup();
+    videoOptionsMenu.popup();
 }
 
 

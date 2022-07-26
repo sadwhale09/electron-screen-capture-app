@@ -14,3 +14,5 @@ Things don't work so well 💀
 ### TODO:
 - [ ] Make popup appear
 - [ ] Uncaught ReferenceError: require is not defined at render.js:9:37
+- [ ] Uncaught (in promise) ReferenceError: Cannot access 'desktopCapturer' before initialization
+    at HTMLButtonElement.getVideoSources (render.js:14:24)
