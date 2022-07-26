@@ -9,8 +9,5 @@
 
 <hr>
 
-Things don't work so well 💀
-
-### TODO:
-- [ ] Make popup appear
-- [ ] Uncaught ReferenceError: require is not defined at render.js:9:37
+* Things don't work so well 💀
+* Checkout the "render" branch
