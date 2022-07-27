@@ -2,7 +2,7 @@
 
 <hr>
 
-* Based on: <a href="https://www.youtube.com/watch?v=4yqDxhR2XxE&list=TLPQMjYwNzIwMjIwrhFM6wyG4Q&index=2">Fireship's video</a>
+* Based on: <a href="https://youtu.be/3yqDxhR2XxE">Fireship's video</a>
 * npx create-electron-app screen-capture-app - to create template
 * npm start - to start the app
 * rs - to restart
